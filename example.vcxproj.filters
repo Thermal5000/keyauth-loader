@@ -1,0 +1,113 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\auth">
+      <UniqueIdentifier>{de1a561c-edb6-4e62-a44a-ca45ef812d97}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Protection">
+      <UniqueIdentifier>{587eab74-13d3-4764-9f32-49b7924744df}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\SpooferMapper">
+      <UniqueIdentifier>{29dc9da1-7724-4354-b44f-de07b2dd0e02}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Streaming">
+      <UniqueIdentifier>{a99e01fc-fd32-463e-972f-b2e00b5135e9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Bytes">
+      <UniqueIdentifier>{727cd444-9745-4482-b696-f33f39bd50cb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="entry.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="protect.cpp">
+      <Filter>Header Files\Protection</Filter>
+    </ClCompile>
+    <ClCompile Include="SpooferMapper\intel_driver.cpp">
+      <Filter>Header Files\SpooferMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="SpooferMapper\kdmapper.cpp">
+      <Filter>Header Files\SpooferMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="SpooferMapper\portable_executable.cpp">
+      <Filter>Header Files\SpooferMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="SpooferMapper\service.cpp">
+      <Filter>Header Files\SpooferMapper</Filter>
+    </ClCompile>
+    <ClCompile Include="SpooferMapper\utils.cpp">
+      <Filter>Header Files\SpooferMapper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="skStr.h">
+      <Filter>Header Files\Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\auth.hpp">
+      <Filter>Header Files\auth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\colors.hpp">
+      <Filter>Header Files\auth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\other.h">
+      <Filter>Header Files\auth</Filter>
+    </ClInclude>
+    <ClInclude Include="auth\sk.h">
+      <Filter>Header Files\auth</Filter>
+    </ClInclude>
+    <ClInclude Include="antidebug.hpp">
+      <Filter>Header Files\Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="protect.h">
+      <Filter>Header Files\Protection</Filter>
+    </ClInclude>
+    <ClInclude Include="SpooferMapper\intel_driver.hpp">
+      <Filter>Header Files\SpooferMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="SpooferMapper\intel_driver_resource.hpp">
+      <Filter>Header Files\SpooferMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="SpooferMapper\kdmapper.hpp">
+      <Filter>Header Files\SpooferMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="SpooferMapper\nt.hpp">
+      <Filter>Header Files\SpooferMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="SpooferMapper\portable_executable.hpp">
+      <Filter>Header Files\SpooferMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="SpooferMapper\service.hpp">
+      <Filter>Header Files\SpooferMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="SpooferMapper\utils.hpp">
+      <Filter>Header Files\SpooferMapper</Filter>
+    </ClInclude>
+    <ClInclude Include="Streaming\filestream.h">
+      <Filter>Header Files\Streaming</Filter>
+    </ClInclude>
+    <ClInclude Include="Bytes.h">
+      <Filter>Header Files\Bytes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Library Include="library_x64.lib">
+      <Filter>Header Files\auth</Filter>
+    </Library>
+    <Library Include="libcurl.lib">
+      <Filter>Header Files\auth</Filter>
+    </Library>
+  </ItemGroup>
+</Project>
